@@ -25,7 +25,7 @@ In detail:
 * If the 2 cards are the same, the color of the cards will change and they will be opened.
 * If the cards does not match, they will be closed after one sec.
 
-####According to the number of moves, the stars will be shown:
+#### According to the number of moves, the stars will be shown:
 *  :star::star::star: moves between 0 and 20.
 * :star::star: moves between 20 and 30.
 * :star: 30 or more.
