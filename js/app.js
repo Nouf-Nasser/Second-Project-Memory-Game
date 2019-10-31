@@ -1,15 +1,15 @@
-var theOpenCards    = [];
-var myMoves         = 0;
-var theStarsRating  = $("i");
-var clicks          = 0;
-var theEnd          = false;
+let theOpenCards    = [];
+let myMoves         = 0;
+let theStarsRating  = $("i");
+let clicks          = 0;
+let theEnd          = false;
 CardList = CardsInitialize();
 restart = $('.restart');
 //---------------------------------------------
-var interval;
-var timer = document.querySelector(".timer"); //same as $(.timer) using jQuery
+let interval;
+let timer = document.querySelector(".timer"); //same as $(.timer) using jQuery
 timer.innerHTML = "0 mins : 0 secs";
-var shuffleOne = shuffle(CardList);
+let shuffleOne = shuffle(CardList);
 DisplayCards();
 var click = 0;
 //adding an event listener
