@@ -9,7 +9,7 @@
 
 ## About
 
-Udacity Memory Game Project Of Front-End Developer Nanodegree.
+Udacity Memory Game thired Project Of Front-End Developer Nanodegree.
 
 
 ## How It Works?
