@@ -90,16 +90,16 @@ function displaySymbol(card){
   //logic to show symbol
 }// end displaySymbol
 //-------------------------------------
-incrementMoves = (card)=>{            // writing function in a new way
+incrementMoves = (card)=>{            // writing function in a new way called "array function"
   if (theEnd || $(card).hasClass("match") || $(card).is($(theOpenCards[0])) ){
       return false;
   }
   myMoves++;
   Rating(myMoves);
-  $(".myMoves").text(myMoves);
+  $(".myMoves").text(myMoves); // the dollar sign is from jQuery 
 };
 //---------------------------------------
-isMatch=()=>{               // writing function in a new way
+isMatch=()=>{               // writing function in a new way called "array function"
       let condition1 = theOpenCards[0].innerHTML != theOpenCards[1].innerHTML;
       let condition2 = $(theOpenCards[0]).is($(theOpenCards[1]));
 
@@ -152,7 +152,6 @@ styleDanger = (theOpenCards)=>{
 function markedOpened(card){
      // check theOpenCards array
      // if length > 0 card exist
-     //
      //else
      //push
      //true!
