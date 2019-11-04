@@ -10,6 +10,7 @@
 ## About
 
 Udacity Memory Game thired Project Of Front-End Developer Nanodegree.
+![screenshot](/screenshot.png)
 
 
 ## How It Works?
