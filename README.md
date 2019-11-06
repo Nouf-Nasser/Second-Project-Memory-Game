@@ -15,7 +15,7 @@ Udacity Memory Game thired Project Of Front-End Developer Nanodegree.
 
 ## How It Works?
 
-The game will test the player memory by shuffling and thin showing the 16 pairs
+As you can see in the image above the game will test the player memory by shuffling and thin showing the 16 pairs
 of symbols that shown in the cards at the first seconds, after that they will be hidden,
 and here the challenge began!!.
 The player will try to match all the cards with their pairs.
